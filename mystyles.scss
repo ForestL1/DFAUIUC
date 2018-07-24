@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+
+// Set your brand colors
+$orange: #E84A27;
+$blue: #13294B;
+
+// Update Bulma's global variables
+$family-sans-serif: "SF Display", "Helvetica Neue", sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$navbar-background-color: black;
+// Update some of Bulma's component variables
+$body-background-color: ;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$navbar-background-color: black;
+$navbar-item-color: white;
+$text: black;
+$primary: $blue;
+$navbar-item-active-color: $orange;
+$weight-light: 100;
+
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/bulma.sass";
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('fonts.css');
+
+
+
+
+
+// Import only what you need from Bulma
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/utilities/_all.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/_all.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/container.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/title.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass";
+@import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/section.sass";
+
+
+#hero1 {
+    background-color: black;
+    height: 550px;
+    margin-top: 3.25rem;
+    background-image: url('https://www.mccormick.northwestern.edu/images/news/2017/07/design-for-america-leadership-studio-to-focus-on-accessible-cities-h.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+}
+#heroabout {
+    background-color: black;
+    height: 400px;
+    margin-top: 3.25rem;
+    background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/421056332.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+#heronetwork {
+    background-color: black;
+    height: 400px;
+    margin-top: 3.25rem;
+    background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/421056332.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+#heroprojects {
+    background-color: black;
+    height: 400px;
+    margin-top: 3.25rem;
+    background-image: url('https://i2.wp.com/designforamerica.com/wp-content/uploads/2018/02/DSC_9264.jpg?w=2400');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+#heroevents {
+    background-color: black;
+    height: 400px;
+    margin-top: 3.25rem;
+    background-image: url('https://i1.wp.com/designforamerica.com/wp-content/uploads/2018/04/20170805_DFA_JWW4671-1.jpg?fit=1280%2C854');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+#heromwmu18 {
+    background-color: black;
+    height: 400px;
+    margin-top: 3.25rem;
+    background-image: url('http://designforamerica.com/wp-content/uploads/2018/03/IMG_3498-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+
+#bodysection {
+    margin: 0px 25px 25px 25px;
+    padding: 50px 50px 50px 50px;
+    background-color: #f5f5f5;
+    @media only screen and (max-width: 768px) {
+        padding: 50px 15px 50px 15px;
+    }
+}
+#bodysectionhero1 {
+    margin: 0px 25px 25px 25px;
+    padding: 50px 50px 50px 50px;
+    background-image: url('https://www.mccormick.northwestern.edu/images/news/2017/07/design-for-america-leadership-studio-to-focus-on-accessible-cities-h.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+    @media only screen and (max-width: 768px) {
+        padding: 50px 15px 50px 15px;
+    }
+}
+#image1 {
+    height: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/published/1404527488.jpg?1507933308');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+footer {
+    height: 200px;
+    background-color: #f5f5f5;
+}
