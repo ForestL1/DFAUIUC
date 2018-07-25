@@ -311,7 +311,7 @@ body {
 
 /* line 62, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
 a {
-  color: #13294B;
+  color: #E84A27;
   cursor: pointer;
   text-decoration: none; }
   /* line 66, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
@@ -319,7 +319,7 @@ a {
     color: currentColor; }
   /* line 68, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
   a:hover {
-    color: #363636; }
+    color: #13294B; }
 
 /* line 71, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
 code {
@@ -720,15 +720,15 @@ a.has-text-primary:hover, a.has-text-primary:focus {
 
 /* line 99, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 .has-text-link {
-  color: #13294B !important; }
+  color: #E84A27 !important; }
 
 /* line 102, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 a.has-text-link:hover, a.has-text-link:focus {
-  color: #091322 !important; }
+  color: #c73515 !important; }
 
 /* line 105, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 .has-background-link {
-  background-color: #13294B !important; }
+  background-color: #E84A27 !important; }
 
 /* line 99, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 .has-text-info {
@@ -1096,11 +1096,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 /* line 20, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/box.sass */
 a.box:hover, a.box:focus {
-  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #13294B; }
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #E84A27; }
 
 /* line 23, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/box.sass */
 a.box:active {
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #13294B; }
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #E84A27; }
 
 /* line 43, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
 .button {
@@ -1138,14 +1138,14 @@ a.box:active {
   /* line 77, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button:hover, .button.is-hovered {
     border-color: #b5b5b5;
-    color: #363636; }
+    color: #13294B; }
   /* line 81, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button:focus, .button.is-focused {
     border-color: #13294B;
     color: #363636; }
     /* line 85, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button:focus:not(:active), .button.is-focused:not(:active) {
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 87, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button:active, .button.is-active {
     border-color: #4a4a4a;
@@ -1556,12 +1556,12 @@ a.box:active {
         color: #fff; }
   /* line 114, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button.is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     border-color: transparent;
     color: #fff; }
     /* line 118, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link:hover, .button.is-link.is-hovered {
-      background-color: #102341;
+      background-color: #e7401b;
       border-color: transparent;
       color: #fff; }
     /* line 123, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
@@ -1570,21 +1570,21 @@ a.box:active {
       color: #fff; }
       /* line 127, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link:focus:not(:active), .button.is-link.is-focused:not(:active) {
-        box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+        box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
     /* line 129, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link:active, .button.is-link.is-active {
-      background-color: #0e1e37;
+      background-color: #de3c18;
       border-color: transparent;
       color: #fff; }
     /* line 134, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link[disabled] {
-      background-color: #13294B;
+      background-color: #E84A27;
       border-color: transparent;
       box-shadow: none; }
     /* line 138, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-inverted {
       background-color: #fff;
-      color: #13294B; }
+      color: #E84A27; }
       /* line 141, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-inverted:hover {
         background-color: #f2f2f2; }
@@ -1593,29 +1593,29 @@ a.box:active {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
-        color: #13294B; }
+        color: #E84A27; }
     /* line 149, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-loading::after {
       border-color: transparent transparent #fff #fff !important; }
     /* line 151, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-outlined {
       background-color: transparent;
-      border-color: #13294B;
-      color: #13294B; }
+      border-color: #E84A27;
+      color: #E84A27; }
       /* line 155, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
-        background-color: #13294B;
-        border-color: #13294B;
+        background-color: #E84A27;
+        border-color: #E84A27;
         color: #fff; }
       /* line 161, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-outlined.is-loading::after {
-        border-color: transparent transparent #13294B #13294B !important; }
+        border-color: transparent transparent #E84A27 #E84A27 !important; }
       /* line 163, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-outlined[disabled] {
         background-color: transparent;
-        border-color: #13294B;
+        border-color: #E84A27;
         box-shadow: none;
-        color: #13294B; }
+        color: #E84A27; }
     /* line 168, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-inverted.is-outlined {
       background-color: transparent;
@@ -1624,7 +1624,7 @@ a.box:active {
       /* line 172, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-inverted.is-outlined:hover, .button.is-link.is-inverted.is-outlined:focus {
         background-color: #fff;
-        color: #13294B; }
+        color: #E84A27; }
       /* line 176, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-inverted.is-outlined[disabled] {
         background-color: transparent;
@@ -2248,8 +2248,8 @@ a.box:active {
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
-    border-color: #13294B;
-    box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+    border-color: #E84A27;
+    box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .input[disabled],
   .textarea[disabled] {
@@ -2335,14 +2335,14 @@ a.box:active {
   /* line 78, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .input.is-link,
   .textarea.is-link {
-    border-color: #13294B; }
+    border-color: #E84A27; }
     /* line 80, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .input.is-link:focus, .input.is-link.is-focused, .input.is-link:active, .input.is-link.is-active,
     .textarea.is-link:focus,
     .textarea.is-link.is-focused,
     .textarea.is-link:active,
     .textarea.is-link.is-active {
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 78, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .input.is-info,
   .textarea.is-info {
@@ -2479,7 +2479,7 @@ a.box:active {
     height: 2.25em; }
   /* line 153, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select:not(.is-multiple):not(.is-loading)::after {
-    border-color: #13294B;
+    border-color: #E84A27;
     right: 1.125em;
     z-index: 4; }
   /* line 158, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
@@ -2513,8 +2513,8 @@ a.box:active {
       border-color: #b5b5b5; }
     /* line 53, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
-      border-color: #13294B;
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      border-color: #E84A27;
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
     /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select select[disabled] {
       background-color: whitesmoke;
@@ -2614,16 +2614,16 @@ a.box:active {
       box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
   /* line 187, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select.is-link:not(:hover)::after {
-    border-color: #13294B; }
+    border-color: #E84A27; }
   /* line 189, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select.is-link select {
-    border-color: #13294B; }
+    border-color: #E84A27; }
     /* line 191, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select.is-link select:hover, .select.is-link select.is-hovered {
-      border-color: #0e1e37; }
+      border-color: #de3c18; }
     /* line 194, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select.is-link select:focus, .select.is-link select.is-focused, .select.is-link select:active, .select.is-link select.is-active {
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 187, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select.is-info:not(:hover)::after {
     border-color: #209cee; }
@@ -2816,22 +2816,22 @@ a.box:active {
     color: #fff; }
   /* line 240, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link .file-cta {
-    background-color: #13294B;
+    background-color: #E84A27;
     border-color: transparent;
     color: #fff; }
   /* line 246, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link:hover .file-cta, .file.is-link.is-hovered .file-cta {
-    background-color: #102341;
+    background-color: #e7401b;
     border-color: transparent;
     color: #fff; }
   /* line 252, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link:focus .file-cta, .file.is-link.is-focused .file-cta {
     border-color: transparent;
-    box-shadow: 0 0 0.5em rgba(19, 41, 75, 0.25);
+    box-shadow: 0 0 0.5em rgba(232, 74, 39, 0.25);
     color: #fff; }
   /* line 258, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link:active .file-cta, .file.is-link.is-active .file-cta {
-    background-color: #0e1e37;
+    background-color: #de3c18;
     border-color: transparent;
     color: #fff; }
   /* line 240, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
@@ -3110,7 +3110,7 @@ a.box:active {
     color: #13294B; }
   /* line 417, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .help.is-link {
-    color: #13294B; }
+    color: #E84A27; }
   /* line 417, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .help.is-info {
     color: #209cee; }
@@ -3550,7 +3550,7 @@ a.box:active {
     color: #fff; }
   /* line 33, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/notification.sass */
   .notification.is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     color: #fff; }
   /* line 33, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/notification.sass */
   .notification.is-info {
@@ -3640,13 +3640,13 @@ a.box:active {
     background-color: #13294B; }
   /* line 28, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/progress.sass */
   .progress.is-link::-webkit-progress-value {
-    background-color: #13294B; }
+    background-color: #E84A27; }
   /* line 30, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/progress.sass */
   .progress.is-link::-moz-progress-bar {
-    background-color: #13294B; }
+    background-color: #E84A27; }
   /* line 32, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/progress.sass */
   .progress.is-link::-ms-fill {
-    background-color: #13294B; }
+    background-color: #E84A27; }
   /* line 28, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/progress.sass */
   .progress.is-info::-webkit-progress-value {
     background-color: #209cee; }
@@ -3737,8 +3737,8 @@ a.box:active {
     /* line 36, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/table.sass */
     .table td.is-link,
     .table th.is-link {
-      background-color: #13294B;
-      border-color: #13294B;
+      background-color: #E84A27;
+      border-color: #E84A27;
       color: #fff; }
     /* line 36, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/table.sass */
     .table td.is-info,
@@ -3929,7 +3929,7 @@ a.box:active {
     color: #fff; }
   /* line 61, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/tag.sass */
   .tag:not(body).is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     color: #fff; }
   /* line 61, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/tag.sass */
   .tag:not(body).is-info {
@@ -4140,13 +4140,13 @@ a.tag:hover {
   /* line 15, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/breadcrumb.sass */
   .breadcrumb a {
     align-items: center;
-    color: #13294B;
+    color: #E84A27;
     display: flex;
     justify-content: center;
     padding: 0 0.75em; }
     /* line 21, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/breadcrumb.sass */
     .breadcrumb a:hover {
-      color: #363636; }
+      color: #13294B; }
   /* line 23, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/breadcrumb.sass */
   .breadcrumb li {
     align-items: center;
@@ -4331,7 +4331,7 @@ a.dropdown-item {
     color: #0a0a0a; }
   /* line 65, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/dropdown.sass */
   a.dropdown-item.is-active {
-    background-color: #13294B;
+    background-color: #E84A27;
     color: #fff; }
 
 /* line 69, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/dropdown.sass */
@@ -4518,7 +4518,7 @@ a.dropdown-item {
       color: #363636; }
     /* line 33, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/menu.sass */
     .menu-list a.is-active {
-      background-color: #13294B;
+      background-color: #E84A27;
       color: #fff; }
   /* line 37, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/menu.sass */
   .menu-list li ul {
@@ -4617,15 +4617,15 @@ a.dropdown-item {
       color: #11233f; }
   /* line 46, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/message.sass */
   .message.is-link {
-    background-color: #f7f9fd; }
+    background-color: #fef7f6; }
     /* line 48, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/message.sass */
     .message.is-link .message-header {
-      background-color: #13294B;
+      background-color: #E84A27;
       color: #fff; }
     /* line 51, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/message.sass */
     .message.is-link .message-body {
-      border-color: #13294B;
-      color: #11233f; }
+      border-color: #E84A27;
+      color: #9b3018; }
   /* line 46, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/message.sass */
   .message.is-info {
     background-color: #f6fbfe; }
@@ -5044,7 +5044,7 @@ a.dropdown-item {
         color: #fff; } }
   /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar.is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     color: #fff; }
     /* line 63, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar.is-link .navbar-brand > .navbar-item,
@@ -5054,7 +5054,7 @@ a.dropdown-item {
     .navbar.is-link .navbar-brand > a.navbar-item:hover, .navbar.is-link .navbar-brand > a.navbar-item.is-active,
     .navbar.is-link .navbar-brand .navbar-link:hover,
     .navbar.is-link .navbar-brand .navbar-link.is-active {
-      background-color: #0e1e37;
+      background-color: #de3c18;
       color: #fff; }
     /* line 73, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar.is-link .navbar-brand .navbar-link::after {
@@ -5074,7 +5074,7 @@ a.dropdown-item {
       .navbar.is-link .navbar-end > a.navbar-item.is-active,
       .navbar.is-link .navbar-end .navbar-link:hover,
       .navbar.is-link .navbar-end .navbar-link.is-active {
-        background-color: #0e1e37;
+        background-color: #de3c18;
         color: #fff; }
       /* line 88, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
       .navbar.is-link .navbar-start .navbar-link::after,
@@ -5083,11 +5083,11 @@ a.dropdown-item {
       /* line 90, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
       .navbar.is-link .navbar-item.has-dropdown:hover .navbar-link,
       .navbar.is-link .navbar-item.has-dropdown.is-active .navbar-link {
-        background-color: #0e1e37;
+        background-color: #de3c18;
         color: #fff; }
       /* line 96, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
       .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
-        background-color: #13294B;
+        background-color: #E84A27;
         color: #fff; } }
   /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar.is-info {
@@ -5400,7 +5400,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #13294B; }
+    color: #E84A27; }
 
 /* line 168, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
 .navbar-item {
@@ -5425,14 +5425,14 @@ a.navbar-item,
     /* line 183, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar-item.is-tab:hover {
       background-color: transparent;
-      border-bottom-color: #13294B; }
+      border-bottom-color: #E84A27; }
     /* line 186, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar-item.is-tab.is-active {
       background-color: transparent;
-      border-bottom-color: #13294B;
+      border-bottom-color: #E84A27;
       border-bottom-style: solid;
       border-bottom-width: 3px;
-      color: #13294B;
+      color: #E84A27;
       padding-bottom: calc(0.5rem - 3px); }
 
 /* line 194, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
@@ -5445,7 +5445,7 @@ a.navbar-item,
   padding-right: 2.5em; }
   /* line 200, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar-link::after {
-    border-color: #13294B;
+    border-color: #E84A27;
     margin-top: -0.375em;
     right: 1.125em; }
 
@@ -5553,7 +5553,7 @@ a.navbar-item,
     /* line 294, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
       background-color: whitesmoke;
-      color: #13294B; }
+      color: #E84A27; }
   /* line 297, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar-burger {
     display: none; }
@@ -5627,7 +5627,7 @@ a.navbar-item,
       /* line 356, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
       .navbar-dropdown a.navbar-item.is-active {
         background-color: whitesmoke;
-        color: #13294B; }
+        color: #E84A27; }
     /* line 359, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed {
       border-radius: 6px;
@@ -5753,7 +5753,7 @@ a.navbar-item,
   .pagination-next:hover,
   .pagination-link:hover {
     border-color: #b5b5b5;
-    color: #363636; }
+    color: #13294B; }
   /* line 74, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/pagination.sass */
   .pagination-previous:focus,
   .pagination-next:focus,
@@ -5783,8 +5783,8 @@ a.navbar-item,
 
 /* line 92, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/pagination.sass */
 .pagination-link.is-current {
-  background-color: #13294B;
-  border-color: #13294B;
+  background-color: #E84A27;
+  border-color: #E84A27;
   color: #fff; }
 
 /* line 97, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/pagination.sass */
@@ -5898,7 +5898,7 @@ a.navbar-item,
   color: black; }
   /* line 66, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/panel.sass */
   .panel-list a:hover {
-    color: #13294B; }
+    color: #E84A27; }
 
 /* line 69, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/panel.sass */
 .panel-block {
@@ -5920,11 +5920,11 @@ a.navbar-item,
     flex-wrap: wrap; }
   /* line 83, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/panel.sass */
   .panel-block.is-active {
-    border-left-color: #13294B;
+    border-left-color: #E84A27;
     color: #363636; }
     /* line 86, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/panel.sass */
     .panel-block.is-active .panel-icon {
-      color: #13294B; }
+      color: #E84A27; }
 
 /* line 89, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/panel.sass */
 a.panel-block,
@@ -5982,8 +5982,8 @@ label.panel-block {
     display: block; }
     /* line 57, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/tabs.sass */
     .tabs li.is-active a {
-      border-bottom-color: #13294B;
-      color: #13294B; }
+      border-bottom-color: #E84A27;
+      color: #E84A27; }
   /* line 60, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/tabs.sass */
   .tabs ul {
     align-items: center;
@@ -6059,8 +6059,8 @@ label.panel-block {
     border-radius: 0 4px 4px 0; }
   /* line 128, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/tabs.sass */
   .tabs.is-toggle li.is-active a {
-    background-color: #13294B;
-    border-color: #13294B;
+    background-color: #E84A27;
+    border-color: #E84A27;
     color: #fff;
     z-index: 1; }
   /* line 133, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/tabs.sass */
@@ -7350,7 +7350,7 @@ label.panel-block {
           background-image: linear-gradient(141deg, #071724 0%, #13294B 71%, #152762 100%); } }
   /* line 17, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
   .hero.is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     color: #fff; }
     /* line 20, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link a:not(.button):not(.dropdown-item):not(.tag),
@@ -7369,7 +7369,7 @@ label.panel-block {
     @media screen and (max-width: 1087px) {
       /* line 30, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
       .hero.is-link .navbar-menu {
-        background-color: #13294B; } }
+        background-color: #E84A27; } }
     /* line 33, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link .navbar-item,
     .hero.is-link .navbar-link {
@@ -7378,7 +7378,7 @@ label.panel-block {
     .hero.is-link a.navbar-item:hover, .hero.is-link a.navbar-item.is-active,
     .hero.is-link .navbar-link:hover,
     .hero.is-link .navbar-link.is-active {
-      background-color: #0e1e37;
+      background-color: #de3c18;
       color: #fff; }
     /* line 43, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link .tabs a {
@@ -7400,14 +7400,14 @@ label.panel-block {
     .hero.is-link .tabs.is-boxed li.is-active a, .hero.is-link .tabs.is-boxed li.is-active a:hover, .hero.is-link .tabs.is-toggle li.is-active a, .hero.is-link .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
-      color: #13294B; }
+      color: #E84A27; }
     /* line 64, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link.is-bold {
-      background-image: linear-gradient(141deg, #071724 0%, #13294B 71%, #152762 100%); }
+      background-image: linear-gradient(141deg, #d20d0a 0%, #E84A27 71%, #f07839 100%); }
       @media screen and (max-width: 768px) {
         /* line 69, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
         .hero.is-link.is-bold .navbar-menu {
-          background-image: linear-gradient(141deg, #071724 0%, #13294B 71%, #152762 100%); } }
+          background-image: linear-gradient(141deg, #d20d0a 0%, #E84A27 71%, #f07839 100%); } }
   /* line 17, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
   .hero.is-info {
     background-color: #209cee;
@@ -8053,7 +8053,7 @@ body {
 
 /* line 62, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
 a {
-  color: #13294B;
+  color: #E84A27;
   cursor: pointer;
   text-decoration: none; }
   /* line 66, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
@@ -8061,7 +8061,7 @@ a {
     color: currentColor; }
   /* line 68, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
   a:hover {
-    color: #363636; }
+    color: #13294B; }
 
 /* line 71, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/generic.sass */
 code {
@@ -8462,15 +8462,15 @@ a.has-text-primary:hover, a.has-text-primary:focus {
 
 /* line 99, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 .has-text-link {
-  color: #13294B !important; }
+  color: #E84A27 !important; }
 
 /* line 102, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 a.has-text-link:hover, a.has-text-link:focus {
-  color: #091322 !important; }
+  color: #c73515 !important; }
 
 /* line 105, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 .has-background-link {
-  background-color: #13294B !important; }
+  background-color: #E84A27 !important; }
 
 /* line 99, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/base/helpers.sass */
 .has-text-info {
@@ -8863,14 +8863,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   /* line 77, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button:hover, .button.is-hovered {
     border-color: #b5b5b5;
-    color: #363636; }
+    color: #13294B; }
   /* line 81, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button:focus, .button.is-focused {
     border-color: #13294B;
     color: #363636; }
     /* line 85, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button:focus:not(:active), .button.is-focused:not(:active) {
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 87, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button:active, .button.is-active {
     border-color: #4a4a4a;
@@ -9281,12 +9281,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         color: #fff; }
   /* line 114, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
   .button.is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     border-color: transparent;
     color: #fff; }
     /* line 118, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link:hover, .button.is-link.is-hovered {
-      background-color: #102341;
+      background-color: #e7401b;
       border-color: transparent;
       color: #fff; }
     /* line 123, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
@@ -9295,21 +9295,21 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       color: #fff; }
       /* line 127, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link:focus:not(:active), .button.is-link.is-focused:not(:active) {
-        box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+        box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
     /* line 129, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link:active, .button.is-link.is-active {
-      background-color: #0e1e37;
+      background-color: #de3c18;
       border-color: transparent;
       color: #fff; }
     /* line 134, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link[disabled] {
-      background-color: #13294B;
+      background-color: #E84A27;
       border-color: transparent;
       box-shadow: none; }
     /* line 138, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-inverted {
       background-color: #fff;
-      color: #13294B; }
+      color: #E84A27; }
       /* line 141, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-inverted:hover {
         background-color: #f2f2f2; }
@@ -9318,29 +9318,29 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
-        color: #13294B; }
+        color: #E84A27; }
     /* line 149, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-loading::after {
       border-color: transparent transparent #fff #fff !important; }
     /* line 151, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-outlined {
       background-color: transparent;
-      border-color: #13294B;
-      color: #13294B; }
+      border-color: #E84A27;
+      color: #E84A27; }
       /* line 155, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
-        background-color: #13294B;
-        border-color: #13294B;
+        background-color: #E84A27;
+        border-color: #E84A27;
         color: #fff; }
       /* line 161, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-outlined.is-loading::after {
-        border-color: transparent transparent #13294B #13294B !important; }
+        border-color: transparent transparent #E84A27 #E84A27 !important; }
       /* line 163, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-outlined[disabled] {
         background-color: transparent;
-        border-color: #13294B;
+        border-color: #E84A27;
         box-shadow: none;
-        color: #13294B; }
+        color: #E84A27; }
     /* line 168, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
     .button.is-link.is-inverted.is-outlined {
       background-color: transparent;
@@ -9349,7 +9349,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       /* line 172, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-inverted.is-outlined:hover, .button.is-link.is-inverted.is-outlined:focus {
         background-color: #fff;
-        color: #13294B; }
+        color: #E84A27; }
       /* line 176, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/button.sass */
       .button.is-link.is-inverted.is-outlined[disabled] {
         background-color: transparent;
@@ -9808,8 +9808,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
-    border-color: #13294B;
-    box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+    border-color: #E84A27;
+    box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .input[disabled],
   .textarea[disabled] {
@@ -9895,14 +9895,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   /* line 78, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .input.is-link,
   .textarea.is-link {
-    border-color: #13294B; }
+    border-color: #E84A27; }
     /* line 80, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .input.is-link:focus, .input.is-link.is-focused, .input.is-link:active, .input.is-link.is-active,
     .textarea.is-link:focus,
     .textarea.is-link.is-focused,
     .textarea.is-link:active,
     .textarea.is-link.is-active {
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 78, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .input.is-info,
   .textarea.is-info {
@@ -10039,7 +10039,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     height: 2.25em; }
   /* line 153, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select:not(.is-multiple):not(.is-loading)::after {
-    border-color: #13294B;
+    border-color: #E84A27;
     right: 1.125em;
     z-index: 4; }
   /* line 158, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
@@ -10073,8 +10073,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       border-color: #b5b5b5; }
     /* line 53, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
-      border-color: #13294B;
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      border-color: #E84A27;
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
     /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select select[disabled] {
       background-color: whitesmoke;
@@ -10174,16 +10174,16 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
   /* line 187, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select.is-link:not(:hover)::after {
-    border-color: #13294B; }
+    border-color: #E84A27; }
   /* line 189, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select.is-link select {
-    border-color: #13294B; }
+    border-color: #E84A27; }
     /* line 191, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select.is-link select:hover, .select.is-link select.is-hovered {
-      border-color: #0e1e37; }
+      border-color: #de3c18; }
     /* line 194, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
     .select.is-link select:focus, .select.is-link select.is-focused, .select.is-link select:active, .select.is-link select.is-active {
-      box-shadow: 0 0 0 0.125em rgba(19, 41, 75, 0.25); }
+      box-shadow: 0 0 0 0.125em rgba(232, 74, 39, 0.25); }
   /* line 187, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .select.is-info:not(:hover)::after {
     border-color: #209cee; }
@@ -10376,22 +10376,22 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     color: #fff; }
   /* line 240, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link .file-cta {
-    background-color: #13294B;
+    background-color: #E84A27;
     border-color: transparent;
     color: #fff; }
   /* line 246, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link:hover .file-cta, .file.is-link.is-hovered .file-cta {
-    background-color: #102341;
+    background-color: #e7401b;
     border-color: transparent;
     color: #fff; }
   /* line 252, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link:focus .file-cta, .file.is-link.is-focused .file-cta {
     border-color: transparent;
-    box-shadow: 0 0 0.5em rgba(19, 41, 75, 0.25);
+    box-shadow: 0 0 0.5em rgba(232, 74, 39, 0.25);
     color: #fff; }
   /* line 258, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .file.is-link:active .file-cta, .file.is-link.is-active .file-cta {
-    background-color: #0e1e37;
+    background-color: #de3c18;
     border-color: transparent;
     color: #fff; }
   /* line 240, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
@@ -10670,7 +10670,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     color: #13294B; }
   /* line 417, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .help.is-link {
-    color: #13294B; }
+    color: #E84A27; }
   /* line 417, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/form.sass */
   .help.is-info {
     color: #209cee; }
@@ -11358,7 +11358,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
           background-image: linear-gradient(141deg, #071724 0%, #13294B 71%, #152762 100%); } }
   /* line 17, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
   .hero.is-link {
-    background-color: #13294B;
+    background-color: #E84A27;
     color: #fff; }
     /* line 20, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link a:not(.button):not(.dropdown-item):not(.tag),
@@ -11377,7 +11377,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     @media screen and (max-width: 1087px) {
       /* line 30, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
       .hero.is-link .navbar-menu {
-        background-color: #13294B; } }
+        background-color: #E84A27; } }
     /* line 33, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link .navbar-item,
     .hero.is-link .navbar-link {
@@ -11386,7 +11386,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .hero.is-link a.navbar-item:hover, .hero.is-link a.navbar-item.is-active,
     .hero.is-link .navbar-link:hover,
     .hero.is-link .navbar-link.is-active {
-      background-color: #0e1e37;
+      background-color: #de3c18;
       color: #fff; }
     /* line 43, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link .tabs a {
@@ -11408,14 +11408,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .hero.is-link .tabs.is-boxed li.is-active a, .hero.is-link .tabs.is-boxed li.is-active a:hover, .hero.is-link .tabs.is-toggle li.is-active a, .hero.is-link .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
-      color: #13294B; }
+      color: #E84A27; }
     /* line 64, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
     .hero.is-link.is-bold {
-      background-image: linear-gradient(141deg, #071724 0%, #13294B 71%, #152762 100%); }
+      background-image: linear-gradient(141deg, #d20d0a 0%, #E84A27 71%, #f07839 100%); }
       @media screen and (max-width: 768px) {
         /* line 69, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
         .hero.is-link.is-bold .navbar-menu {
-          background-image: linear-gradient(141deg, #071724 0%, #13294B 71%, #152762 100%); } }
+          background-image: linear-gradient(141deg, #d20d0a 0%, #E84A27 71%, #f07839 100%); } }
   /* line 17, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass */
   .hero.is-info {
     background-color: #209cee;
@@ -11746,7 +11746,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
-/* line 45, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 48, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #hero1 {
   background-color: black;
   height: 550px;
@@ -11757,7 +11757,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
 
-/* line 55, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 58, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heroabout {
   background-color: black;
   height: 400px;
@@ -11768,7 +11768,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 65, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 68, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heronetwork {
   background-color: black;
   height: 400px;
@@ -11779,7 +11779,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 75, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 78, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heroprojects {
   background-color: black;
   height: 400px;
@@ -11790,7 +11790,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 85, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 88, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heroevents {
   background-color: black;
   height: 400px;
@@ -11801,7 +11801,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 95, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 98, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heromwmu18 {
   background-color: black;
   height: 400px;
@@ -11812,17 +11812,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 106, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 109, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysection {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
   background-color: #f5f5f5; }
   @media only screen and (max-width: 768px) {
-    /* line 106, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 109, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysection {
-      padding: 50px 15px 50px 15px; } }
+      padding: 50px 20px 50px 20px; } }
 
-/* line 114, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 117, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero1 {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
@@ -11832,23 +11832,87 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
   @media only screen and (max-width: 768px) {
-    /* line 114, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 117, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero1 {
       padding: 50px 15px 50px 15px; } }
 
-/* line 126, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 129, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#bodysectionhero2 {
+  margin: 0px 25px 25px 25px;
+  padding: 50px 50px 50px 50px;
+  background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
+  @media only screen and (max-width: 768px) {
+    /* line 129, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    #bodysectionhero2 {
+      padding: 50px 15px 50px 15px; } }
+
+/* line 141, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#bodysectionhero3 {
+  margin: 0px 25px 25px 25px;
+  background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px transparent; }
+  @media only screen and (max-width: 768px) {
+    /* line 141, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    #bodysectionhero3 {
+      padding: 50px 15px 50px 15px; } }
+
+/* line 152, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#WhoWeAre {
+  padding: 0px 50px 50px 50px; }
+  @media only screen and (max-width: 768px) {
+    /* line 152, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    #WhoWeAre {
+      padding: 10px 10px 10px 10px; } }
+
+/* line 159, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#WhoWeAreText {
+  padding: 50px 50px 50px 50px; }
+  @media only screen and (max-width: 768px) {
+    /* line 159, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    #WhoWeAreText {
+      padding: 20px 20px 20px 20px;
+      margin: 0px 10px 0px 10px; } }
+
+/* line 166, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #image1 {
-  height: 100%;
-  background-color: orange;
   border-radius: 20px;
+  width: 100%;
   background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/published/1404527488.jpg?1507933308");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
-/* line 136, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 175, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 footer {
   height: 200px;
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  padding: 25px 25px 25px 25px; }
+
+/* line 180, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+.media-left {
+  width: 150px; }
+
+/* line 183, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+.button {
+  margin: 5px 10px 5px 0px; }
+
+/* line 186, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* line 189, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+a.button, .navbar a {
+  text-decoration: none; }
+
+/* line 192, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+strong {
+  color: white; }
 
 /*# sourceMappingURL=mystyles.css.map */
