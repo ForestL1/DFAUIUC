@@ -4028,7 +4028,7 @@ a.tag:hover {
 
 /* line 32, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/title.sass */
 .title {
-  color: #363636;
+  color: #13294B;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -10973,7 +10973,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 /* line 32, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/elements/title.sass */
 .title {
-  color: #363636;
+  color: #13294B;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -11746,7 +11746,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
-/* line 48, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 51, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #hero1 {
   background-color: black;
   height: 600px;
@@ -11758,7 +11758,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
 
-/* line 59, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 62, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heroabout {
   background-color: black;
   height: 400px;
@@ -11769,7 +11769,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 69, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 72, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heronetwork {
   background-color: black;
   height: 400px;
@@ -11780,7 +11780,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 79, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 82, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heroprojects {
   background-color: black;
   height: 400px;
@@ -11791,7 +11791,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 89, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 92, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heroevents {
   background-color: black;
   height: 400px;
@@ -11802,7 +11802,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 99, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 102, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #heromwmu18 {
   background-color: black;
   height: 400px;
@@ -11813,17 +11813,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 110, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 113, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysection {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
   background-color: #f5f5f5; }
   @media only screen and (max-width: 768px) {
-    /* line 110, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 113, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysection {
-      padding: 50px 20px 50px 20px; } }
+      padding: 30px 20px 30px 20px; } }
 
-/* line 118, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 121, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero1 {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
@@ -11833,11 +11833,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
   @media only screen and (max-width: 768px) {
-    /* line 118, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 121, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero1 {
       padding: 50px 15px 50px 15px; } }
 
-/* line 130, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 133, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero2 {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
@@ -11847,42 +11847,33 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
   @media only screen and (max-width: 768px) {
-    /* line 130, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 133, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero2 {
       padding: 50px 15px 50px 15px; } }
 
-/* line 142, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 145, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero3 {
   margin: 0px 25px 25px 25px;
-  padding: 50px 50px 50px 50px;
+  padding: 75px 50px 75px 50px;
   background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px transparent; }
   @media only screen and (max-width: 768px) {
-    /* line 142, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 145, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero3 {
-      padding: 50px 15px 50px 15px; } }
+      padding: 30px 30px 30px 30px; } }
 
-/* line 154, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #WhoWeAre {
-  padding: 50px 50px 50px 50px; }
+  padding: 40px 40px 40px 40px; }
   @media only screen and (max-width: 768px) {
-    /* line 154, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #WhoWeAre {
-      padding: 10px 10px 10px 10px; } }
+      padding: 20px 20px 20px 20px; } }
 
-/* line 160, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#WhoWeAreText {
-  padding: 50px 50px 50px 50px; }
-  @media only screen and (max-width: 768px) {
-    /* line 160, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-    #WhoWeAreText {
-      padding: 20px 20px 20px 20px;
-      margin: 0px 10px 0px 10px; } }
-
-/* line 167, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 163, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #image1 {
   border-radius: 20px;
   width: 100%;
@@ -11891,29 +11882,25 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-position: center;
   background-size: cover; }
 
-/* line 176, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 172, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 footer {
   height: 200px;
   background-color: #f5f5f5;
   padding: 25px 25px 25px 25px; }
 
-/* line 181, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-.media-left {
-  width: 150px; }
-
-/* line 184, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 180, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .button {
   margin: 5px 10px 5px 0px; }
 
-/* line 187, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 183, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 190, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 186, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a.button, .navbar a {
   text-decoration: none; }
 
-/* line 193, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 189, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 strong {
   color: white; }
 
