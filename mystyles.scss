@@ -21,6 +21,12 @@ $text: black;
 $primary: $blue;
 $navbar-item-active-color: $orange;
 $weight-light: 100;
+$link: $orange;
+$link-hover: $blue;
+$background-primary: $blue;
+$title-color: $blue;
+
+
 
 @import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/bulma.sass";
 // Import a Google Font
@@ -44,13 +50,14 @@ $weight-light: 100;
 
 #hero1 {
     background-color: black;
-    height: 550px;
+    height: 600px;
     margin-top: 3.25rem;
+    margin-bottom: 25px;
     background-image: url('https://www.mccormick.northwestern.edu/images/news/2017/07/design-for-america-leadership-studio-to-focus-on-accessible-cities-h.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
 }
 #heroabout {
     background-color: black;
@@ -66,7 +73,7 @@ $weight-light: 100;
     background-color: black;
     height: 400px;
     margin-top: 3.25rem;
-    background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/421056332.jpg');
+    background-image: url('/DFA_SallyRyan_Day2_228.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +115,7 @@ $weight-light: 100;
     padding: 50px 50px 50px 50px;
     background-color: #f5f5f5;
     @media only screen and (max-width: 768px) {
-        padding: 50px 15px 50px 15px;
+        padding: 30px 20px 30px 20px;
     }
 }
 #bodysectionhero1 {
@@ -123,10 +130,39 @@ $weight-light: 100;
         padding: 50px 15px 50px 15px;
     }
 }
+#bodysectionhero2 {
+    margin: 0px 25px 25px 25px;
+    padding: 50px 50px 50px 50px;
+    background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+    @media only screen and (max-width: 768px) {
+        padding: 50px 15px 50px 15px;
+    }
+}
+#bodysectionhero3 {
+    margin: 0px 25px 25px 25px;
+    padding: 75px 50px 75px 50px;
+    background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+    @media only screen and (max-width: 768px) {
+        padding: 30px 30px 30px 30px;
+    }
+}
+#WhoWeAre {
+    padding: 40px 40px 40px 40px;
+    @media only screen and (max-width: 768px) {
+        padding: 20px 20px 20px 20px;
+    }
+}
 #image1 {
-    height: 100%;
-    background-color: orange;
     border-radius: 20px;
+    width: 100%;
     background-image: url('http://www.dfaillinois.com/uploads/3/1/6/8/31689123/published/1404527488.jpg?1507933308');
     background-repeat: no-repeat;
     background-position: center;
@@ -134,6 +170,27 @@ $weight-light: 100;
     
 }
 footer {
-    height: 200px;
+    
     background-color: #f5f5f5;
+    padding: 25px 25px 25px 25px;
+}
+.media-left {
+    
+}
+.button {
+    margin: 5px 10px 5px 0px;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.button, .navbar a {
+    text-decoration: none;
+}
+strong {
+    color: white;
+}
+.execprofile {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 15px;
 }
