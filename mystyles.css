@@ -11774,7 +11774,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: black;
   height: 400px;
   margin-top: 3.25rem;
-  background-image: url("/DFAUIUC/DFA_SallyRyan_Day2_228.jpg");
+  background-image: url("/DFA_SallyRyan_Day2_228.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11835,7 +11835,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   @media only screen and (max-width: 768px) {
     /* line 121, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero1 {
-      padding: 50px 15px 50px 15px; } }
+      padding: 50px 25px 50px 25px; } }
 
 /* line 133, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero2 {
@@ -11849,7 +11849,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   @media only screen and (max-width: 768px) {
     /* line 133, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero2 {
-      padding: 50px 15px 50px 15px; } }
+      padding: 50px 25px 50px 25px; } }
 
 /* line 145, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero3 {
@@ -11866,14 +11866,18 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       padding: 30px 30px 30px 30px; } }
 
 /* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#bodysectionhero4 {
+  margin: 0px 25px 25px 25px; }
+
+/* line 164, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #WhoWeAre {
   padding: 40px 40px 40px 40px; }
   @media only screen and (max-width: 768px) {
-    /* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 164, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #WhoWeAre {
       padding: 20px 20px 20px 20px; } }
 
-/* line 163, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 170, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #image1 {
   border-radius: 20px;
   width: 100%;
@@ -11882,31 +11886,63 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-position: center;
   background-size: cover; }
 
-/* line 172, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 179, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 footer {
   background-color: #f5f5f5;
   padding: 25px 25px 25px 25px; }
 
-/* line 180, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 187, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .button {
   margin: 5px 10px 5px 0px; }
 
-/* line 183, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 190, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 186, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 193, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a.button, .navbar a {
   text-decoration: none; }
 
-/* line 189, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 196, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 strong {
   color: white; }
 
-/* line 192, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 199, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .execprofile {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 15px; }
+
+/* line 204, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+.has-text-orange {
+  color: #E84A27; }
+
+/* line 207, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+.footerlineleft {
+  width: 48%;
+  padding-left: 50px;
+  padding-right: 5px; }
+  @media screen and (max-width: 768px) {
+    /* line 207, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    .footerlineleft {
+      padding-left: 12px;
+      padding-right: 10px; } }
+
+/* line 216, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+.footerlineright {
+  width: 48%;
+  padding-left: 5px;
+  padding-right: 50px; }
+  @media screen and (max-width: 768px) {
+    /* line 216, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    .footerlineright {
+      padding-right: 12px;
+      padding-left: 10px; } }
+
+/* line 225, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#projectsmall {
+  background-color: black;
+  padding: 25px 25px 25px 25px;
+  height: 350px; }
 
 /*# sourceMappingURL=mystyles.css.map */

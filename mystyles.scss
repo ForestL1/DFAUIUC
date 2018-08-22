@@ -127,7 +127,7 @@ $title-color: $blue;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
     @media only screen and (max-width: 768px) {
-        padding: 50px 15px 50px 15px;
+        padding: 50px 25px 50px 25px;
     }
 }
 #bodysectionhero2 {
@@ -139,7 +139,7 @@ $title-color: $blue;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
     @media only screen and (max-width: 768px) {
-        padding: 50px 15px 50px 15px;
+        padding: 50px 25px 50px 25px;
     }
 }
 #bodysectionhero3 {
@@ -152,6 +152,13 @@ $title-color: $blue;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
     @media only screen and (max-width: 768px) {
         padding: 30px 30px 30px 30px;
+    }
+}
+#bodysectionhero4 {
+    margin: 0px 25px 25px 25px;
+    
+    @media only screen and (max-width: 768px) {
+        
     }
 }
 #WhoWeAre {
@@ -193,4 +200,30 @@ strong {
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 15px;
+}
+.has-text-orange {
+    color: $orange;
+}
+.footerlineleft {
+    width: 48%;
+    padding-left: 50px;
+    padding-right: 5px;
+    @media screen and (max-width: 768px) {
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+}
+.footerlineright {
+    width: 48%;
+    padding-left: 5px;
+    padding-right: 50px;
+    @media screen and (max-width: 768px) {
+        padding-right: 12px;
+        padding-left: 10px;
+    }
+}
+#projectsmall {
+    background-color: black;
+    padding: 25px 25px 25px 25px;
+    height: 350px;
 }

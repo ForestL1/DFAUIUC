@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="mystyles.css">
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="bulma-timeline.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <script src="jquery.js"></script>
   </head>
@@ -52,7 +53,7 @@
       <h1 class="title is-size-1">
         Design for humans, by humans
       </h1>
-      <h2 class="subtitle is-size-4">
+      <h2 class="subtitle is-size-4" style="color: #E84A27">
         University of Illinois at Urbana-Champaign
       </h2>
     <a class="button is-link is-inverted is-outlined" href="https://tinyurl.com/dfa-uiuc-app">Apply Today</a>
@@ -72,7 +73,7 @@
     </div>
 </div>
 </section>
-    
+  
 <a id="eventsection"></a>    
 <section id="bodysection" style="background-color:#E84A27">
 <div class="container">
@@ -81,47 +82,36 @@
         <h1 class="is-size-3 has-text-weight-semibold">Upcoming Events</h1>
         </div>
     <div class="column">
-        <div class="columns is-mobile">
-        <div class="column is-4 has-text-grey-lighter">
-            <h1 class="is-size-4">Sunday 8/26</h1>
-            <h1 class="is-size-6">7-8 PM</h1>
+<div class="timeline" style="padding-left:15px;padding-right:15px;">
+<header class="timeline-header">
+    <span class="tag is-medium is-primary">August</span>
+  </header>
+  <div class="timeline-item">
+    <div class="timeline-marker is-warning is-image is-32x32"><h1 class="has-text-orange has-size-4 has-text-centered" style="margin-top: 2px;">26</h1></div>
+    <div class="timeline-content">
+      <h1 class="is-size-7 has-text-weight-bold">SUNDAY 8/26</h1>
+      <h1 class="is-size-4">Quad Day</h1>
+        <h1 class="is-size-6 has-text-weight-semibold">Main Quad | 12-4PM</h1>
+        <h1 class="is-size-6 is-italic">Stop by our booth to say hello to us, and sign up for our mailing list!</h1>
+    </div>
+  </div>
+    <div class="timeline-item">
+    <div class="timeline-marker is-image is-32x32"><h1 class="has-text-orange has-size-4 has-text-centered" style="margin-top: 2px;">28</h1>
         </div>
-        <div class="column">
-            <h1 class="is-size-4">Quad Day</h1>
-            <h1 class="is-size-6 is-italic">Design RSOs, Main Quad</h1>
-        </div>
-        </div>
-        <div class="columns is-mobile">
-        <div class="column is-4 has-text-grey-lighter">
-            <h1 class="is-size-4">Monday 8/30</h1>
-            <h1 class="is-size-6">6-7 PM</h1>
-        </div>
-        <div class="column">
-            <h1 class="is-size-4">Design in...</h1>
-            <h1 class="is-size-6"><strong>BUSINESS</strong> | <em>Lincoln Hall</em> | <em>6-6:30 PM</em></h1>
-            <h1 class="is-size-6"><strong>ENGINEERING</strong> | <em>Lincoln Hall</em> | <em>6:30-7 PM</em></h1>
-            <h1 class="is-size-6"><strong>MEDICINE</strong> | <em>Lincoln Hall</em> | <em>6-6:30 PM</em></h1>
-            <h1 class="is-size-6"><strong>FINE ARTS</strong> | <em>Lincoln Hall</em> | <em>6:30-7 PM</em></h1>
-        </div>
-        </div>
-                <div class="columns is-mobile">
-        <div class="column is-4 has-text-grey-lighter">
-            <h1 class="is-size-4">Saturday 9/4</h1>
-            <h1 class="is-size-6">12-2 PM</h1>
-        </div>
-        <div class="column">
-            <h1 class="is-size-4">Recruitment Cookout</h1>
-            <h1 class="is-size-6 is-italic">Scott Park</h1>
-        </div>
-        </div>
-
-        <br>
-        <button class="button is-link is-inverted is-outlined" href="events.html">More Events</button>
+    <div class="timeline-content">
+      <h1 class="is-size-7 has-text-weight-bold">TUESDAY 8/28</h1>
+      <h1 class="is-size-4">Info Night</h1>
+        <h1 class="is-size-6 has-text-weight-semibold">Lincoln Hall 1090 | 7PM</h1>
+            <h1 class="is-size-6 is-italic">Come learn about our organization, our current projects, and how you can get involved!</h1>
+    </div>
+  </div>
+  </div>
+        <a class="button is-link is-inverted is-outlined" href="/events.html">More Events</a>
         </div>
     </div>
 </div>
 </section>
-    
+
 <section class="has-background-primary" id="bodysection">
 <div class="container">
 <div class="columns has-text-white">
@@ -131,17 +121,17 @@
         <br>
         <h1 class="is-size-5-tablet">The Edison Projects</h1>
         <h1 class="is-size-5-tablet">Humana National Project</h1>
-        <h1 class="is-size-5-tablet">Accessibility</h1>
-        <h1 class="is-size-5-tablet">Synchrony Financial</h1>
+        <h1 class="is-size-5-tablet">Accessibility Project</h1>
+        <h1 class="is-size-5-tablet">Synchrony Financial Project</h1>
         <br>
-        <button class="button is-link is-inverted is-outlined" href="projects.html">See Details</button>
+        <a class="button is-link is-inverted is-outlined" href="/projects.html">Learn More</a>
         </div>
     <div class="column">
         <h1 class="is-size-3 has-text-weight-semibold">Our Network</h1>
         <h1 class="is-size-5-tablet">College students using design-thinking for social good.</h1>
         <br>
-        <button class="button is-link is-inverted is-outlined" href="projects.html">DFA National</button>
-        <button class="button is-link is-inverted is-outlined" href="projects.html">DFA Midwest</button>
+        <a class="button is-link is-inverted is-outlined" href="https://designforamerica.com">DFA National</a>
+        <a class="button is-link is-inverted is-outlined" href="/mwmu18.html">DFA Midwest</a>
         </div>
     </div>
 </div>
@@ -191,81 +181,80 @@
 <section class="has-text-primary" id="bodysection">
 <div class="container">
 <h1 class="is-size-3 has-text-weight-semibold title">Where can DFA take you?</h1>
-    <h1 class="is-size-4-tablet subtitle">Our members are recognized for their excellence by earning internships and full-time offers from the best companies in the country in a wide variety of industries. Some of these companies include...</h1><br><br>
-<div class="columns is-multiline is-centered is-mobile">
+    <h1 class="is-size-4-tablet subtitle">Our members are recognized for their excellence by earning internships and full-time offers from the best companies in the country in a wide variety of industries. Some of these companies include...</h1>
+<div class="columns is-multiline is-centered is-mobile" style="margin-top: 10px;">
     <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Google.jpg">
+        <img src="Google.jpg">
         </figure>
         </div>
     <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Facebook.jpg">
+        <img src="Facebook.jpg">
         </figure>
         </div>
     <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Apple.jpg">
+        <img src="Apple.jpg">
         </figure>
         </div>
     <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Bosch.jpg">
+        <img src="Bosch.jpg">
         </figure>
         </div>
     <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/KimberlyClark.jpg">
+        <img src="KimberlyClark.jpg">
         </figure>
         </div>
         <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Chegg.jpg">
+        <img src="Chegg.jpg">
         </figure>
         </div>
         <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Infosys.jpg">
+        <img src="Infosys.jpg">
         </figure>
         </div>
         <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/Vmware.jpg">
+        <img src="Vmware.jpg">
         </figure>
         </div>
         <div class="column is-narrow">
         <figure class="image" style="width: 200px;">
-        <img src="/DFAUIUC/Use/CroweHorwath.jpg">
+        <img src="CroweHorwath.jpg">
         </figure>
         </div>
     </div>
 </div>
 </section>
 
-  </body>
-    <footer class="has-text-centered">
+</body>
+<footer class="has-text-centered has-text-primary">
+    <table style="width:100%; margin-top: 0px; margin-bottom: 0px">
+    <tr>
+        <td class="footerlineleft">
+        <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">    
+        </td>
+        <td style="width:4%; vertical-align: middle; font-size: 20px; text-align: center; color: #E84A27;">
+        &#9733   
+        </td>
+        <td class="footerlineright">
+        <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">    
+        </td>
+    </tr>
+</table>
     <h1 class="is-size-4-tablet has-text-weight-bold">Design For America at UIUC</h1>
-    <h1 class="is-size-6-tablet has-text-weight-normal">2018-2019</h1>
-    <hr>
-    <div class="columns is-mobile">
-    <div class="column">
-        <h1 class="is-size-6-tablet has-text-weight-bold">Home</h1>
-        <h1 class="is-size-6-tablet">About</h1>
-        <h1 class="is-size-6-tablet">Network</h1>
-        <h1 class="is-size-6-tablet">Projects</h1>
-        <h1 class="is-size-6-tablet">Events</h1>
-        <h1 class="is-size-6-tablet">MWMU 18'</h1>
-        </div>
-    <div class="column">
-        <h1 class="is-size-6-tablet has-text-weight-bold">Join Us</h1>
-        </div>
-    <div class="column">
-        <h1 class="is-size-6-tablet has-text-weight-bold">Follow Us</h1>
-        <h1 class="is-size-6-tablet">Instagram</h1>
-        <h1 class="is-size-6-tablet">Facebook</h1>
-        <h1 class="is-size-6-tablet">Twitter</h1>
-        </div>
-    </div>
     <h1 class="is-size-6-tablet has-text-weight-normal">uiuc@designforamerica.com</h1>
-    </footer>
+    <h1 class="is-size-6-tablet has-text-weight-normal">© 2018-2019</h1>
+    <br>
+    <a class="has-text-primary" href="https://www.instagram.com/dfaillinois/?hl=en"><i class="fab fa-instagram fa-3x"></i></a>
+    <a class="has-text-primary" href="https://www.facebook.com/dfaillinois/"><i class="fab fa-facebook fa-3x" style="margin-left: 25px; margin-right: 25px;"></i></a>
+    <a class="has-text-primary" href="https://twitter.com/dfaillinois?lang=en"><i class="fab fa-twitter fa-3x"></i></a>
+    <br><br>
+    <h1 class="is-size-6-tablet has-text-weight-normal"><a class="has-text-primary" href="/index.html">Home</a> | <a class="has-text-primary" href="https://tinyurl.com/dfa-uiuc-app">Apply Today</a> | <a class="has-text-primary" href="mailto:uiuc@designforamerica.com" target="_top">Contact</a></h1>
+</footer>
 </html>
