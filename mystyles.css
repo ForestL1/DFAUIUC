@@ -11752,25 +11752,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   height: 600px;
   margin-top: 3.25rem;
   margin-bottom: 25px;
-  background-image: url("https://www.mccormick.northwestern.edu/images/news/2017/07/design-for-america-leadership-studio-to-focus-on-accessible-cities-h.jpg");
+  background-image: url("/DFA_SallyRyan_Day1_31.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
 
 /* line 62, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#heroabout {
-  background-color: black;
-  height: 400px;
-  margin-top: 3.25rem;
-  background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/421056332.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
-
-/* line 72, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#heronetwork {
+#hero2 {
   background-color: black;
   height: 400px;
   margin-top: 3.25rem;
@@ -11779,104 +11768,55 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 81, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#heroprojects {
-  background-color: black;
-  height: 400px;
-  margin-top: 3.25rem;
-  background-image: url("https://i2.wp.com/designforamerica.com/wp-content/uploads/2018/02/DSC_9264.jpg?w=2400");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
-
-/* line 91, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#heroevents {
-  background-color: black;
-  height: 400px;
-  margin-top: 3.25rem;
-  background-image: url("https://i1.wp.com/designforamerica.com/wp-content/uploads/2018/04/20170805_DFA_JWW4671-1.jpg?fit=1280%2C854");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
-
-/* line 101, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#heromwmu18 {
-  background-color: black;
-  height: 400px;
-  margin-top: 3.25rem;
-  background-image: url("http://designforamerica.com/wp-content/uploads/2018/03/IMG_3498-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
-
-/* line 112, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 71, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysection {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
   background-color: #f5f5f5; }
   @media only screen and (max-width: 768px) {
-    /* line 112, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 71, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysection {
       padding: 20px 20px 20px 20px; } }
 
-/* line 120, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#bodysectionhero1 {
+/* line 79, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+#bodysectionhero {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
-  background-image: url("https://www.mccormick.northwestern.edu/images/news/2017/07/design-for-america-leadership-studio-to-focus-on-accessible-cities-h.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75); }
   @media only screen and (max-width: 768px) {
-    /* line 120, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-    #bodysectionhero1 {
+    /* line 79, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    #bodysectionhero {
       padding: 25px 25px 25px 25px; } }
 
-/* line 132, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 91, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero2 {
   margin: 0px 25px 25px 25px;
-  padding: 50px 50px 50px 50px;
-  background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); }
-  @media only screen and (max-width: 768px) {
-    /* line 132, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-    #bodysectionhero2 {
-      padding: 50px 25px 50px 25px; } }
-
-/* line 144, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-#bodysectionhero3 {
-  margin: 0px 25px 25px 25px;
   padding: 75px 50px 75px 50px;
-  background-image: url("http://www.dfaillinois.com/uploads/3/1/6/8/31689123/background-images/1824193412.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px transparent; }
   @media only screen and (max-width: 768px) {
-    /* line 144, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
-    #bodysectionhero3 {
+    /* line 91, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    #bodysectionhero2 {
       padding: 30px 30px 30px 30px; } }
 
-/* line 156, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 102, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero4 {
   margin: 0px 25px 25px 25px; }
 
-/* line 163, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 109, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #WhoWeAre {
   padding: 40px 40px 40px 40px; }
   @media only screen and (max-width: 768px) {
-    /* line 163, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 109, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #WhoWeAre {
       padding: 20px 20px 20px 20px; } }
 
-/* line 169, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 115, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #image1 {
   border-radius: 20px;
   width: 100%;
@@ -11885,60 +11825,60 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-position: center;
   background-size: cover; }
 
-/* line 178, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 124, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 footer {
   background-color: #f5f5f5;
   padding: 25px 25px 25px 25px; }
 
-/* line 186, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 132, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .button {
   margin: 5px 10px 5px 0px; }
 
-/* line 189, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 135, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 192, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 138, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a.button, .navbar a {
   text-decoration: none; }
 
-/* line 195, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 141, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 strong {
   color: white; }
 
-/* line 198, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 144, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .execprofile {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 15px; }
 
-/* line 203, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 149, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .has-text-orange {
   color: #E84A27; }
 
-/* line 206, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 152, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .footerlineleft {
   width: 48%;
   padding-left: 50px;
   padding-right: 5px; }
   @media screen and (max-width: 768px) {
-    /* line 206, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 152, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     .footerlineleft {
       padding-left: 12px;
       padding-right: 10px; } }
 
-/* line 215, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 161, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .footerlineright {
   width: 48%;
   padding-left: 5px;
   padding-right: 50px; }
   @media screen and (max-width: 768px) {
-    /* line 215, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 161, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     .footerlineright {
       padding-right: 12px;
       padding-left: 10px; } }
 
-/* line 224, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 170, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #projectsmall {
   background-color: black;
   padding: 25px 25px 25px 25px;
