@@ -11746,10 +11746,9 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
-/* line 51, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 50, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #hero1 {
   background-color: black;
-  height: 600px;
   margin-top: 3.25rem;
   margin-bottom: 25px;
   background-position: center;
@@ -11757,7 +11756,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
 
-/* line 61, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 59, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #hero2 {
   background-color: black;
   height: 400px;
@@ -11767,17 +11766,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 70, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 68, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysection {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
   background-color: #f5f5f5; }
   @media only screen and (max-width: 768px) {
-    /* line 70, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 68, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysection {
       padding: 20px 20px 20px 20px; } }
 
-/* line 78, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 76, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
@@ -11786,11 +11785,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75); }
   @media only screen and (max-width: 768px) {
-    /* line 78, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 76, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero {
       padding: 25px 25px 25px 25px; } }
 
-/* line 89, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 87, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero2 {
   margin: 0px 25px 25px 25px;
   padding: 75px 50px 75px 50px;
@@ -11799,23 +11798,23 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px transparent; }
   @media only screen and (max-width: 768px) {
-    /* line 89, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 87, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero2 {
       padding: 30px 30px 30px 30px; } }
 
-/* line 100, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 98, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero4 {
   margin: 0px 25px 25px 25px; }
 
-/* line 107, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 105, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #WhoWeAre {
   padding: 40px 40px 40px 40px; }
   @media only screen and (max-width: 768px) {
-    /* line 107, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 105, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #WhoWeAre {
       padding: 20px 20px 20px 20px; } }
 
-/* line 113, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 111, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #image1 {
   border-radius: 20px;
   width: 100%;
@@ -11824,63 +11823,69 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-position: center;
   background-size: cover; }
 
-/* line 122, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 120, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 footer {
   background-color: #f5f5f5;
   padding: 25px 25px 25px 25px; }
 
-/* line 130, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 128, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .button {
   margin: 5px 10px 5px 0px; }
 
-/* line 133, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 131, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 136, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 134, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a.button, .navbar a {
   text-decoration: none; }
 
-/* line 139, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 137, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 strong {
   color: white; }
 
-/* line 142, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 140, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .execprofile {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 15px; }
 
-/* line 147, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 145, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .has-text-orange {
   color: #E84A27; }
 
-/* line 150, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 148, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .footerlineleft {
   width: 48%;
   padding-left: 50px;
   padding-right: 5px; }
   @media screen and (max-width: 768px) {
-    /* line 150, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 148, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     .footerlineleft {
       padding-left: 12px;
       padding-right: 10px; } }
 
-/* line 159, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .footerlineright {
   width: 48%;
   padding-left: 5px;
   padding-right: 50px; }
   @media screen and (max-width: 768px) {
-    /* line 159, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     .footerlineright {
       padding-right: 12px;
       padding-left: 10px; } }
 
-/* line 168, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 166, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #projectsmall {
   background-color: black;
   padding: 25px 25px 25px 25px;
   height: 350px; }
+
+/* line 171, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+.navbar-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500; }
 
 /*# sourceMappingURL=mystyles.css.map */
