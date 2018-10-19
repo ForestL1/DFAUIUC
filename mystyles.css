@@ -11918,7 +11918,7 @@ a.button {
   /* line 206, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-menu {
     height: 100vh;
-    padding-top: 10%; }
+    padding-top: 40px; }
   /* line 210, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab {
     height: 15vh;
@@ -11929,10 +11929,13 @@ a.button {
   .navbar-item.is-tab:hover {
     border-bottom: none; }
   /* line 219, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab.is-active {
+    border-bottom: none; }
+  /* line 222, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab > p {
     position: relative;
     display: inline-block; }
-  /* line 223, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 226, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab > p:after {
     content: '';
     position: absolute;
@@ -11944,7 +11947,7 @@ a.button {
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.3s; }
-  /* line 235, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 238, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab > p:hover:after {
     transform: scaleX(1); } }
 

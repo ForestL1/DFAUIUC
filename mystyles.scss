@@ -205,7 +205,7 @@ a.button {
 @media screen and (max-width: 1024px) {
     .navbar-menu {
         height: 100vh;
-        padding-top: 10%;
+        padding-top: 40px;
     }
     .navbar-item.is-tab {
         height: 15vh;
@@ -214,6 +214,9 @@ a.button {
         vertical-align: middle;
     }
     .navbar-item.is-tab:hover {
+        border-bottom: none;
+    }
+    .navbar-item.is-tab.is-active {
         border-bottom: none;
     }
     .navbar-item.is-tab > p {
