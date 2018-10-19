@@ -11895,10 +11895,10 @@ a.button {
   font-family: "SF Text"; }
 
 @media screen and (min-width: 1024px) {
-  /* line 185, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 186, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab:hover {
     border-bottom: none; }
-  /* line 188, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 189, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab:after {
     content: '';
     position: absolute;
@@ -11910,32 +11910,32 @@ a.button {
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.3s; }
-  /* line 200, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 201, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab:hover:after {
     transform: scaleX(1); } }
 
 @media screen and (max-width: 1024px) {
-  /* line 206, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 207, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-menu {
     height: 100vh;
     padding-top: 40px; }
-  /* line 210, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 211, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab {
     height: 15vh;
     font-size: 2rem;
     text-align: center;
     vertical-align: middle; }
-  /* line 216, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 217, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab:hover {
     border-bottom: none; }
-  /* line 219, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 220, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab.is-active {
     border-bottom: none; }
-  /* line 222, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 223, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab > p {
     position: relative;
     display: inline-block; }
-  /* line 226, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 227, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab > p:after {
     content: '';
     position: absolute;
@@ -11947,7 +11947,7 @@ a.button {
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.3s; }
-  /* line 238, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  /* line 239, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
   .navbar-item.is-tab > p:hover:after {
     transform: scaleX(1); } }
 
