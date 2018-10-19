@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i");
+@import url("fonts.css");
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-@import url("fonts.css");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -4804,7 +4805,7 @@ a.dropdown-item {
 /* line 51, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
 .navbar {
   background-color: black;
-  min-height: 3.25rem;
+  min-height: 4rem;
   position: relative;
   z-index: 30; }
   /* line 59, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
@@ -5281,7 +5282,7 @@ a.dropdown-item {
   .navbar > .container {
     align-items: stretch;
     display: flex;
-    min-height: 3.25rem;
+    min-height: 4rem;
     width: 100%; }
   /* line 104, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar.has-shadow {
@@ -5305,12 +5306,12 @@ a.dropdown-item {
 /* line 118, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
-  padding-top: 3.25rem; }
+  padding-top: 4rem; }
 
 /* line 120, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
 html.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
-  padding-bottom: 3.25rem; }
+  padding-bottom: 4rem; }
 
 /* line 123, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
 .navbar-brand,
@@ -5318,7 +5319,7 @@ body.has-navbar-fixed-bottom {
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 3.25rem; }
+  min-height: 4rem; }
 
 /* line 132, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
 .navbar-brand a.navbar-item:hover {
@@ -5335,9 +5336,9 @@ body.has-navbar-fixed-bottom {
 .navbar-burger {
   cursor: pointer;
   display: block;
-  height: 3.25rem;
+  height: 4rem;
   position: relative;
-  width: 3.25rem;
+  width: 4rem;
   margin-left: auto; }
   /* line 33, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/utilities/mixins.sass */
   .navbar-burger span {
@@ -5420,7 +5421,7 @@ a.navbar-item,
   /* line 179, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar-item.is-tab {
     border-bottom: 1px solid transparent;
-    min-height: 3.25rem;
+    min-height: 4rem;
     padding-bottom: calc(0.5rem - 1px); }
     /* line 183, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar-item.is-tab:hover {
@@ -5505,16 +5506,16 @@ a.navbar-item,
   /* line 250, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 3.25rem);
+    max-height: calc(100vh - 4rem);
     overflow: auto; }
   /* line 256, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
-    padding-top: 3.25rem; }
+    padding-top: 4rem; }
   /* line 258, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   html.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
-    padding-bottom: 3.25rem; } }
+    padding-bottom: 4rem; } }
 
 @media screen and (min-width: 1088px) {
   /* line 262, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
@@ -5526,7 +5527,7 @@ a.navbar-item,
     display: flex; }
   /* line 268, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   .navbar {
-    min-height: 3.25rem; }
+    min-height: 4rem; }
     /* line 270, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
     .navbar.is-spaced {
       padding: 1rem 2rem; }
@@ -5673,19 +5674,19 @@ a.navbar-item,
   /* line 395, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
-    padding-top: 3.25rem; }
+    padding-top: 4rem; }
   /* line 397, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   html.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 3.25rem; }
+    padding-bottom: 4rem; }
   /* line 399, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 5.25rem; }
+    padding-top: 6rem; }
   /* line 401, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 5.25rem; }
+    padding-bottom: 6rem; }
   /* line 406, /Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/components/navbar.sass */
   a.navbar-item.is-active,
   .navbar-link.is-active {
@@ -11746,7 +11747,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
-/* line 50, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 52, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #hero1 {
   background-color: black;
   margin-top: 3.25rem;
@@ -11756,7 +11757,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
 
-/* line 59, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 61, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #hero2 {
   background-color: black;
   height: 400px;
@@ -11766,17 +11767,17 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); }
 
-/* line 68, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 70, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysection {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
   background-color: #f5f5f5; }
   @media only screen and (max-width: 768px) {
-    /* line 68, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 70, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysection {
       padding: 20px 20px 20px 20px; } }
 
-/* line 76, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 78, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero {
   margin: 0px 25px 25px 25px;
   padding: 50px 50px 50px 50px;
@@ -11785,11 +11786,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75); }
   @media only screen and (max-width: 768px) {
-    /* line 76, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 78, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero {
       padding: 25px 25px 25px 25px; } }
 
-/* line 87, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 89, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero2 {
   margin: 0px 25px 25px 25px;
   padding: 75px 50px 75px 50px;
@@ -11798,23 +11799,23 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px transparent; }
   @media only screen and (max-width: 768px) {
-    /* line 87, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 89, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #bodysectionhero2 {
       padding: 30px 30px 30px 30px; } }
 
-/* line 98, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 100, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #bodysectionhero4 {
   margin: 0px 25px 25px 25px; }
 
-/* line 105, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 107, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #WhoWeAre {
   padding: 40px 40px 40px 40px; }
   @media only screen and (max-width: 768px) {
-    /* line 105, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 107, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     #WhoWeAre {
       padding: 20px 20px 20px 20px; } }
 
-/* line 111, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 113, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #image1 {
   border-radius: 20px;
   width: 100%;
@@ -11823,69 +11824,128 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-position: center;
   background-size: cover; }
 
-/* line 120, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 122, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 footer {
   background-color: #f5f5f5;
   padding: 25px 25px 25px 25px; }
 
-/* line 128, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 130, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .button {
   margin: 5px 10px 5px 0px; }
 
-/* line 131, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 133, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 134, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 136, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 a.button, .navbar a {
   text-decoration: none; }
 
-/* line 137, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 139, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 strong {
   color: white; }
 
-/* line 140, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 142, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .execprofile {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 15px; }
 
-/* line 145, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 147, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .has-text-orange {
   color: #E84A27; }
 
-/* line 148, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 150, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .footerlineleft {
   width: 48%;
   padding-left: 50px;
   padding-right: 5px; }
   @media screen and (max-width: 768px) {
-    /* line 148, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 150, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     .footerlineleft {
       padding-left: 12px;
       padding-right: 10px; } }
 
-/* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 159, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .footerlineright {
   width: 48%;
   padding-left: 5px;
   padding-right: 50px; }
   @media screen and (max-width: 768px) {
-    /* line 157, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+    /* line 159, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
     .footerlineright {
       padding-right: 12px;
       padding-left: 10px; } }
 
-/* line 166, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 168, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 #projectsmall {
   background-color: black;
   padding: 25px 25px 25px 25px;
   height: 350px; }
 
-/* line 171, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+/* line 173, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
 .navbar-item {
+  font-family: "SF Text";
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 500; }
+
+/* line 179, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+a.button {
+  font-family: "SF Text"; }
+
+@media screen and (min-width: 1024px) {
+  /* line 185, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab:hover {
+    border-bottom: none; }
+  /* line 188, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #E84A27;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s; }
+  /* line 200, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab:hover:after {
+    transform: scaleX(1); } }
+
+@media screen and (max-width: 1024px) {
+  /* line 206, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-menu {
+    height: 100vh;
+    padding-top: 10%; }
+  /* line 210, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab {
+    height: 15vh;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle; }
+  /* line 216, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab:hover {
+    border-bottom: none; }
+  /* line 219, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab > p {
+    position: relative;
+    display: inline-block; }
+  /* line 223, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab > p:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #E84A27;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s; }
+  /* line 235, /Users/ForestLam/Downloads/DFAWeb2/mystyles.scss */
+  .navbar-item.is-tab > p:hover:after {
+    transform: scaleX(1); } }
 
 /*# sourceMappingURL=mystyles.css.map */

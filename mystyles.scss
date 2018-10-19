@@ -5,6 +5,10 @@
 $orange: #E84A27;
 $blue: #13294B;
 
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+@import url('fonts.css');
+
+
 // Update Bulma's global variables
 $family-sans-serif: "SF Display", "Helvetica Neue", sans-serif;
 $widescreen-enabled: false;
@@ -25,15 +29,13 @@ $link: $orange;
 $link-hover: $blue;
 $background-primary: $blue;
 $title-color: $blue;
+$navbar-height: 4rem;
 
 
 
 @import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/bulma.sass";
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-@import url('fonts.css');
-
-
 
 
 
@@ -47,16 +49,14 @@ $title-color: $blue;
 @import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/hero.sass";
 @import "/Users/ForestLam/Downloads/DFAWeb2/bulma-0.7.1/sass/layout/section.sass";
 
-
 #hero1 {
     background-color: black;
-    height: 600px;
     margin-top: 3.25rem;
     margin-bottom: 25px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
 }
 #hero2 {
     background-color: black;
@@ -169,4 +169,71 @@ strong {
     background-color: black;
     padding: 25px 25px 25px 25px;
     height: 350px;
+}
+.navbar-item {
+    font-family: "SF Text";
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+}
+a.button {
+    font-family: "SF Text";
+}
+
+
+@media screen and (min-width: 1024px) {
+.navbar-item.is-tab:hover {
+        border-bottom: none;
+}
+.navbar-item.is-tab:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: $orange;
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition: transform 0.3s;
+    }
+.navbar-item.is-tab:hover:after {
+        transform: scaleX(1);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-menu {
+        height: 100vh;
+        padding-top: 10%;
+    }
+    .navbar-item.is-tab {
+        height: 15vh;
+        font-size: 2rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .navbar-item.is-tab:hover {
+        border-bottom: none;
+    }
+    .navbar-item.is-tab > p {
+        position: relative;
+        display: inline-block;
+    }
+    .navbar-item.is-tab > p:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: $orange;
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition: transform 0.3s;
+    }
+    .navbar-item.is-tab > p:hover:after {
+        transform: scaleX(1);
+    }
+    
 }
